@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+#header {
+  padding: 20px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.header-1 {
+  text-align: right;
+}
+
+.header-1 h6 {
+  font-family: Source Sans 3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: rgba(51, 51, 51, 1);
+
+  text-align: right;
+}
+
+.header-1 h4 {
+  font-family: Source Sans 3;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(96, 124, 230, 1);
+}
+.header-navBlocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-block-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-block-nav a:hover {
+  font-size: 18px;
+  transition: 1s;
+  color: rgb(253, 44, 44);
+}
+.header-navBlocks h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: blue;
+}
+.main-text {
+  display: flex;
+  align-items: start;
+  gap: 100px;
+}
+.main {
+  padding: 40px 0;
+}
+.main-text h4 {
+  font-family: Source Sans 3;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+
+.main-text p {
+  font-family: Source Sans 3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 1pc;
+  text-align: left;
+}
+
+.main img {
+  margin-top: 1pc;
+}
+
+.company-text-1 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.company-main {
+  font-family: Source Sans 3;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 4pc;
+  margin-bottom: 1pc;
+  line-height: 58px;
+  letter-spacing: 0em;
+  color: rgba(51, 51, 51, 1);
+}
+
+.company-block-img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3pc;
+  margin-top: 1pc;
+  justify-content: space-between;
+}
+
+.company-block-img img {
+  width: 580px;
+  height: 280px;
+}
+
+.product-blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product-block {
+  width: 350px;
+  background: rgba(245, 245, 245, 1);
+  padding-left: 2pc;
+  margin-top: 2pc;
+  padding-top: 1pc;
+  height: 395px;
+}
+.product-block img {
+  width: 200px;
+  margin-bottom: 7pc;
+  height: 194px;
+}
+.product-block h5 {
+  font-family: Source Sans 3;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+}
+.product-block h6 {
+  font-family: Source Sans 3;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(96, 124, 230, 1);
+}
+
+.productH4 {
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 1pc;
+  font-family: Source Sans 3;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.news-blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.news-block {
+  display: flex;
+  flex-direction: column;
+  background: rgba(245, 245, 245, 1);
+  padding-bottom: 1pc;
+}
+.news-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-block img {
+  width: 350px;
+  height: 231px;
+}
+
+.news-block p {
+  margin-top: 1pc;
+
+  margin-bottom: 3pc;
+  padding-left: 1pc;
+}
+
+.news-more {
+  padding: 0 1pc;
+}
+.news-more span {
+  color: rgba(96, 124, 230, 1);
+}
+
+.news-more h6 {
+  color: rgba(136, 136, 136, 1);
+}
+
+#footer {
+  background: rgba(51, 51, 51, 1);
+  padding-top: 3pc;
+  margin-top: 3pc;
+  padding-bottom: 1pc;
+}
+.footer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.footer-navs {
+  display: flex;
+  align-items: start;
+  gap: 50px;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-nav a {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 12px;
+  font-family: Source Sans 3;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footerH4 {
+  text-align: center;
+  color: white;
+  margin-top: 3pc;
+}
